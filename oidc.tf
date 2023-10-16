@@ -27,7 +27,7 @@ data "aws_iam_policy_document" "git_aws_oidc" {
       values   = ["repo:talk2walykay/*:*"] #Note: using *.* will enable the role to be assumed by all the repos starting with the name: "talk2walykay/" in my github
       #values   = ["repo:talk2walykay/actions-oidc-test:*"] #Note: if it is passed this way, that means only this repo will have access =>
       #=> to the above role else we have to config multiple oidc for diff other repos.
-      
+
     }
 
 

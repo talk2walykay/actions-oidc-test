@@ -2,3 +2,6 @@
 oidc/
 terra-*
 environments/eks/*
+.terraform
+.terraform.lock.hcl
+terraform.*

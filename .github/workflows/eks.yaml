@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  call-eks-workflow:
+  call-vpc-workflow:
     uses: ./.github/workflows/deploy.yaml
     with:
       work-dir: "environments/eks_1"
